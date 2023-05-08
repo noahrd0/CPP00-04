@@ -1,0 +1,27 @@
+QU’EST CE QUE LA PISCINE DE 42 ?
+Le temps fort de la sélection à 42, c’est sa Piscine.
+C’est tout l’inverse d’une compétition : il s’agit de mettre en situation les candidates et les candidats en leur faisant commencer le programme de la formation. Aucun pré-requis en code n’est nécessaire : peu importe le niveau de départ, 42 cherche à challenger les candidates et candidats sur leur capacité à se donner à leur maximum durant leur Piscine. Plutôt que de proposer un stage d’initiation à l’informatique, la Piscine de 42 permet de débuter le cursus avec un apprentissage intensif du premier langage utilisé durant la formation, le C. En un mois, la Piscine de 42 permet de découvrir toutes les méthodes d’apprentissages de la formation : l’apprentissage peer-to-peer, le travail en groupe, les peer-évaluations ou encore la pédagogie par projets.
+
+IMMERSION
+
+Plongée dans les méthodes de travail des étudiants et des étudiantes de 42.
+
+APPRENTISSAGE INTENSIF
+
+Un mois au cours duquel on met réellement un pied dans la programmation.
+
+AUCUN PRÉ-REQUIS EN CODE NÉCESSAIRE
+
+La Piscine de 42 reprend tout de 0, peu importe le niveau de départ (novices bienvenus).
+
+APPRENDRE SUR SOI
+
+Découvrir comment les méthodes d’apprentissage de 42 peuvent faire avancer.
+
+POUR TOUS, POUR TOUTES
+
+Tous les profils sont bienvenus : c’est en confrontant les points de vue qu’on progresse.
+
+UNE EXPÉRIENCE INOUBLIABLE
+
+La Piscine de 42, un mois qui ouvre de nouveaux horizons.
