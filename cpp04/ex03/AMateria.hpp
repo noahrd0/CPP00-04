@@ -1,41 +1,39 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ClapTrap.hpp                                       :+:      :+:    :+:   */
+/*   AMateria.hpp                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: nradal <nradal@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/04/20 13:01:39 by nradal            #+#    #+#             */
-/*   Updated: 2023/06/05 17:19:39 by nradal           ###   ########.fr       */
+/*   Created: 2023/06/05 17:11:50 by nradal            #+#    #+#             */
+/*   Updated: 2023/06/05 18:36:27 by nradal           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#ifndef ClapTrap_HPP
-# define ClapTrap_HPP
+#ifndef AMateria_HPP
+# define AMateria_HPP
 
 # include <iostream>
+# include "ICharacter.hpp"
 
-class ClapTrap
+class ICharacter;
+
+class AMateria
 {
 protected:
-	std::string	_name;
-	int			_hit_points;
-	int			_energy_points;
-	int			_attack_damage;
-	
+    std::string const _type;
+    
 public:
-	ClapTrap(std::string name);
-	ClapTrap(ClapTrap const &copy);
-	~ClapTrap();
-	
-	void attack(const std::string& target);
-	void takeDamage(unsigned int amount);
-	void beRepaired(unsigned int amount);
-
-	int	getHitPoints(void);
-
-	ClapTrap &operator=(const ClapTrap& rhs);
+	AMateria();
+	AMateria(std::string const & type);
+	virtual ~AMateria();
+	AMateria(AMateria const & ref);
+    
+	virtual std::string const & getType() const;
+	virtual AMateria* clone() const = 0;
+	virtual void use(ICharacter& target);
+    
+	// AMateria & AMateria::operator=(AMateria const & ref)
 };
 
 #endif
-
